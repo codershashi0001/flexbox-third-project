@@ -15,8 +15,16 @@ a{
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
+    max-width: 900px;
+    min-height: 500px;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
 }
 .card p{
     opacity: 0.6;
